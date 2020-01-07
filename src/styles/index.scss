@@ -23,7 +23,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 } 
 
 .flex-container {
@@ -46,6 +46,14 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.particles-fullheight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .scenes {

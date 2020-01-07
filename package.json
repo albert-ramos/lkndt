@@ -50,6 +50,7 @@
     "@babel/polyfill": "^7.7.0",
     "core-js": "^3.5.0",
     "jquery": "^3.4.1",
+    "particles.js": "^2.0.0",
     "progressbar.js": "^1.1.0",
     "rellax": "^1.10.0"
   }
