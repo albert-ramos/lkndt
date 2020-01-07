@@ -84,7 +84,7 @@ img {
 
 .scene1 {
   // display: none;
-  background-image: url('/public/scene1-bg.png');
+  background-image: url('./public/scene1-bg.png');
 
   &.scene-hidden {
     opacity: 0;
@@ -129,7 +129,7 @@ img {
 
 .scene2 {
   // display: none;
-  background-image: url('/public/scene2-bg.png');
+  background-image: url('./public/scene2-bg.png');
 
   &.scene-hidden {
     opacity: 0;
@@ -278,11 +278,11 @@ img {
     margin-bottom: 0;
 
     &.bg-equipped {
-      background-image: url('/public/scene3-bg5.png');
+      background-image: url('./public/scene3-bg5.png');
     }
 
     &.bg-unequipped {
-      background-image: url('/public/scene2-bg.png');
+      background-image: url('./public/scene2-bg.png');
     }
 
     .content-container {
