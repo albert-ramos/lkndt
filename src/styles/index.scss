@@ -147,10 +147,20 @@ img {
     text-align: center;
 
     #next-action {
+      -webkit-transition: all 200ms ease;
+      -moz-transition: all 200ms ease;
+      -ms-transition: all 200ms ease;
+      -o-transition: all 200ms ease;
+      transition: all 200ms ease;
+      
         color: white;
         text-decoration: none;
         border-bottom: 1px solid white;
         font-size: 2rem;
+
+        &:hover {
+          font-size: 2.6rem;
+        }
     }
   }
 }
